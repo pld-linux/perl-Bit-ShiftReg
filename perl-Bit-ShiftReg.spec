@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Bit
 %define		pnam	ShiftReg
-Summary:	Bit-ShiftReg perl module
-Summary(pl):	Modu³ perla Bit-ShiftReg
+Summary:	Bit::ShiftReg perl module
+Summary(pl):	Modu³ perla Bit::ShiftReg
 Name:		perl-Bit-ShiftReg
 Version:	2.0
 Release:	6
@@ -14,10 +14,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Bit-ShiftReg - Bit Shift Registers with Rotate / Shift Operations.
+Bit::ShiftReg - Bit Shift Registers with Rotate / Shift Operations.
 
 %description -l pl
-Modu³ perla Bit-ShiftReg.
+Modu³ perla Bit::ShiftReg.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
