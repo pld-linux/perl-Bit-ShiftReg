@@ -20,7 +20,7 @@ Bit-ShiftReg - Bit Shift Registers with Rotate / Shift Operations.
 Modu³ perla Bit-ShiftReg.
 
 %prep
-%setup -q -n %{pdir}/%{pdir}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
