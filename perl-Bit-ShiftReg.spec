@@ -9,7 +9,7 @@ Summary:	Bit::ShiftReg - bit shift registers with rotate / shift operations
 Summary(pl):	Bit::ShiftReg - rejestry bitowego przesuwania z rotacj± / przesuniêciem
 Name:		perl-Bit-ShiftReg
 Version:	2.0
-Release:	8
+Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
