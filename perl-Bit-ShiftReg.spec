@@ -3,7 +3,7 @@ Summary:	Bit-ShiftReg perl module
 Summary(pl):	Modu³ perla Bit-ShiftReg
 Name:		perl-Bit-ShiftReg
 Version:	2.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
