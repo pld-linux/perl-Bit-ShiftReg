@@ -1,12 +1,11 @@
-%define	pdir	Bit
-%define	pnam	ShiftReg
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	Bit
+%define		pnam	ShiftReg
 Summary:	Bit-ShiftReg perl module
 Summary(pl):	Modu³ perla Bit-ShiftReg
 Name:		perl-Bit-ShiftReg
 Version:	2.0
 Release:	6
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +20,7 @@ Bit-ShiftReg - Bit Shift Registers with Rotate / Shift Operations.
 Modu³ perla Bit-ShiftReg.
 
 %prep
-%setup -q -n Bit-ShiftReg-%{version}
+%setup -q -n %{pdir}/%{pdir}-%{version}
 
 %build
 perl Makefile.PL
