@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Bit
-%define		pnam	ShiftReg
+%define	pdir	Bit
+%define	pnam	ShiftReg
 Summary:	Bit::ShiftReg - bit shift registers with rotate / shift operations
 Summary(pl):	Bit::ShiftReg - rejestry bitowego przesuwania z rotacj± / przesuniêciem
 Name:		perl-Bit-ShiftReg
