@@ -1,3 +1,4 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Bit-ShiftReg perl module
 Summary(pl):	Modu³ perla Bit-ShiftReg
 Name:		perl-Bit-ShiftReg
@@ -7,7 +8,8 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Bit/Bit-ShiftReg-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov
+BuildRequires:	perl >= 5.005_03-12
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
@@ -16,14 +18,14 @@ BuildRoot:	/tmp/%{name}-%{version}-root
 Bit-ShiftReg - Bit Shift Registers with Rotate / Shift Operations.
 
 %description -l pl
-Modu³ perla Bit-ShiftReg
+Modu³ perla Bit-ShiftReg.
 
 %prep
 %setup -q -n Bit-ShiftReg-%{version}
 
 %build
 perl Makefile.PL
-make
+make OPTIMIZE="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
