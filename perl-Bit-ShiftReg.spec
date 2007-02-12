@@ -6,7 +6,7 @@
 %define		pdir	Bit
 %define		pnam	ShiftReg
 Summary:	Bit::ShiftReg - bit shift registers with rotate / shift operations
-Summary(pl):	Bit::ShiftReg - rejestry bitowego przesuwania z rotacj± / przesuniêciem
+Summary(pl.UTF-8):   Bit::ShiftReg - rejestry bitowego przesuwania z rotacjÄ… / przesuniÄ™ciem
 Name:		perl-Bit-ShiftReg
 Version:	2.0
 Release:	9
@@ -28,12 +28,12 @@ The results depend on the number of bits that the integer types
 unsigned char, unsigned short, unsigned int and unsigned long have on
 your machine.
 
-%description -l pl
-Modu³ Perla Bit::ShiftReg zawiera implementacjê operacji: rotacji w
-lewo, rotacji w prawo, przesuniêcia w lewo i przesuniêcia w prawo ze
-znacznikiem przeniesienia dla wszystkich typów ca³kowitych w C.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Bit::ShiftReg zawiera implementacjÄ™ operacji: rotacji w
+lewo, rotacji w prawo, przesuniÄ™cia w lewo i przesuniÄ™cia w prawo ze
+znacznikiem przeniesienia dla wszystkich typÃ³w caÅ‚kowitych w C.
 
-Wynik zale¿y od ilo¶ci bitów, jak± maj± typy: unsigned char, unsigned
+Wynik zaleÅ¼y od iloÅ›ci bitÃ³w, jakÄ… majÄ… typy: unsigned char, unsigned
 short, unsigned int i unsigned long na danej architekturze.
 
 %prep
