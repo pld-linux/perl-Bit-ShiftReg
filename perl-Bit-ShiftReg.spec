@@ -64,6 +64,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Bit/ShiftReg.pm
 %dir %{perl_vendorarch}/auto/Bit/ShiftReg
-%{perl_vendorarch}/auto/Bit/ShiftReg/ShiftReg.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Bit/ShiftReg/ShiftReg.so
 %{_mandir}/man3/*
