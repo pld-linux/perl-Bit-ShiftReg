@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Bit
 %define		pnam	ShiftReg
+%include	/usr/lib/rpm/macros.perl
 Summary:	Bit::ShiftReg - bit shift registers with rotate / shift operations
 Summary(pl.UTF-8):	Bit::ShiftReg - rejestry bitowego przesuwania z rotacją / przesunięciem
 Name:		perl-Bit-ShiftReg
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d8afa46eb43b252ae019c3193635d1e2
+URL:		http://search.cpan.org/dist/Bit-ShiftReg/
 Patch0:		build.patch
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
