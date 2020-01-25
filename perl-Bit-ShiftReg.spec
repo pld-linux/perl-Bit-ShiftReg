@@ -4,7 +4,6 @@
 
 %define		pdir	Bit
 %define		pnam	ShiftReg
-%include	/usr/lib/rpm/macros.perl
 Summary:	Bit::ShiftReg - bit shift registers with rotate / shift operations
 Summary(pl.UTF-8):	Bit::ShiftReg - rejestry bitowego przesuwania z rotacją / przesunięciem
 Name:		perl-Bit-ShiftReg
